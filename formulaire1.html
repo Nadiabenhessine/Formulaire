@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Formulaire 1</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Formulaire1.css">
+</head>
+<body>
+<div>
+	<form name="Formulaire1" method="post" action="">
+		<fieldset>
+			<legend> A propos des CSS : </legend>
+			<p>
+				Savez-vous ce que veut dire CSS ?:</br>
+				<input type="radio" name="css" value="oui" id="oui"/>
+				<label for="oui"> Oui </label>
+
+				<input type="radio" name="css" value="non" id="non"/>
+				<label for="non"> Non </label></br>
+			</p>
+			<p>
+				Si oui, les utilisez-vous plutot : </br>
+				<select name="utilisationCSS" id="utilisationCSS">
+					<option value="Toujours"> Toujours </option>
+					<option value="foisParJours"> Une fois par semaine </option>
+					<option value="foisParMois"> Une fois par mois </option>
+				</select>
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend> Vos coordonnées : </legend>
+			<p>
+				<label for="email"> Votre email : </label></br>
+				<input  id="email" type="email" name="email" id="email" value="email">
+			</p>
+			<p>
+				<label for="commentaires"> Vos commentaires: </label></br>
+				<textarea id="commentaires"></textarea>
+			</p>
+		</fieldset>
+		<p id="bouttons">
+			<input class="boutton " type="submit" value=" Envoyer">
+			<input class="boutton" type="reset" value="Annuler">
+		</p>
+	</form>
+</div>
+</body>
+</html>

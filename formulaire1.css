@@ -1,0 +1,43 @@
+div{
+	font-family: arial , sans serif;
+	width: 40%;
+	margin: auto;
+}
+legend{
+	color: red;
+	font-weight: bold;
+
+}
+fieldset{
+	border-color: red;
+	margin-top :20px;
+	border-radius: 5px;
+}
+p{
+	padding: 5px;
+}
+#bouttons{
+	text-align: center;
+
+}
+select , #email{
+	padding: 3px;
+	margin-top: 8px;
+	width: 200px;
+	border: 1px black solid;
+	border-radius: 5px;
+}
+textarea{
+	height: 100px;
+	width: 200px;
+	border: 1px black solid;
+	border-radius: 5px5px;
+}
+.boutton{
+	padding: 5px;
+	width: 100px;
+	border: 1px black solid;
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
